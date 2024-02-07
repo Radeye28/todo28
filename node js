@@ -1,13 +1,1 @@
-# render.yaml
-services:
-  - type: web
-    name: my-node-app
-    runtime: nodejs
-    region: sfo2
-    plan: free
-    envVars:
-      - key: NODE_ENV
-        value: production
-    git:
-      repo: https://github.com/myusername/my-node-app.git
-      branch: main
+
